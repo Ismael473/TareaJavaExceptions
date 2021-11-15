@@ -2,16 +2,11 @@ import java.util.Random;
 
 public class MiExcepcion extends Exception{
 
-
-
-
     public MiExcepcion(String mensaje){
         super(mensaje);
     }
+    // Este ejemplo es de un dado que al caer en un número par, activa la excepción personalizada
 
-    public boolean dado(){
-        return true;
-    }
 
     public static void main(String[] args) {
         Random rand = new Random();
