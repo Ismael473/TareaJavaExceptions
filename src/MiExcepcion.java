@@ -24,7 +24,7 @@ public class MiExcepcion extends Exception{
         try{
             if (valor%2 == 0){
                 par = true;
-                throw new MiExcepcion("EL dado dio par "+valor);
+                throw new MiExcepcion("EL dado dio el numero par "+valor);
             }else{
                 par = false;
             }
